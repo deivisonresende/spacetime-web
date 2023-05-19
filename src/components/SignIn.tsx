@@ -10,7 +10,7 @@ export function SignIn() {
         <User className="h-5 w-5 text-gray-500" />
       </div>
       <p className="max-w-[140px] text-sm transition-colors hover:text-gray-50">
-        <span className="underline">Crie sua conta</span> e salve suas memórias!
+        <span className="underline">Entre</span> e salve suas memórias!
       </p>
     </a>
   )
