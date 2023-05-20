@@ -18,7 +18,10 @@ export function Profile(props: Props) {
       <p className="max-w-[140px] text-sm ">
         {props.data.name}
 
-        <a href="" className="block text-red-400 hover:text-red-500">
+        <a
+          href="/api/auth/logout"
+          className="block text-red-400 hover:text-red-500"
+        >
           Quero sair!
         </a>
       </p>
