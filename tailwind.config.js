@@ -63,6 +63,6 @@ module.exports = {
         full: '184px',
       },
     },
-    plugins: [],
   },
+  plugins: [require('@tailwindcss/forms')],
 }
